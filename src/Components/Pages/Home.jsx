@@ -5,7 +5,7 @@ const Home =()=>{
     window.TrelloPowerUp.initialize({
         'card-buttons': function(t, options) {
           return [{
-            icon: './Components/Assets/logo192.png',
+            icon: '../Assets/logo192.png',
             text: 'Signup',
             callback: function(t) {
               return t.popup({
