@@ -10,7 +10,7 @@ const Home =()=>{
             callback: function(t) {
               return t.popup({
                 title: 'Clickup',
-                url: './signup.html',
+                url: './',
                 height: 300
               })
             }
